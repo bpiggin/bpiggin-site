@@ -1,21 +1,8 @@
-import Head from 'next/head'
-
 export default function Home() {
   return (
     <div className="container">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <h1 className="title">bpiggin.io</h1>
 
         <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
@@ -49,14 +36,7 @@ export default function Home() {
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
+        <p>HOME</p> <p>ABOUT</p> <p>ARTICLES</p>
       </footer>
 
       <style jsx>{`
@@ -67,6 +47,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          background: rgb(255, 232, 191);
         }
 
         main {
@@ -79,12 +60,10 @@ export default function Home() {
         }
 
         footer {
-          width: 100%;
+          width: 30%;
           height: 100px;
-          border-top: 1px solid #eaeaea;
           display: flex;
-          justify-content: center;
-          align-items: center;
+          justify-content: space-between;
         }
 
         footer img {
@@ -205,5 +184,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
