@@ -1,1 +1,5 @@
-Personal website built with Next.js
+Really simple site.
+
+`yarn install`
+`yarn start`
+`yarn build`

@@ -1,0 +1,25 @@
+:root {
+  --shu-yellow: #ffe8bf;
+  --shu-yellow-dark: #dbc193;
+  --card: white;
+}
+
+.app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--shu-yellow);
+}
+
+.container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 40%;
+  padding: 30px;
+  background: var(--card);
+  box-shadow: 5px 5px 15px var(--shu-yellow-dark);
+  border-radius: 10px;
+}
